@@ -2443,15 +2443,20 @@ ol {
 ========================================*/
 .call-action {
   background-color: #6ba5ff;
+  background-image: url('../images/hero/cta-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .call-action .cta-content {
   text-align: center;
   padding: 25px 25px;
-  border: 1px solid #e5e5e5;
+  /* border: 1px solid #e5e5e5;
   border-radius: 10px;
   background: #e5e5e5;
-  box-shadow: 1px 1px 3px 2px #e5e5e5;
+  box-shadow: 1px 1px 3px 2px #e5e5e5; */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
